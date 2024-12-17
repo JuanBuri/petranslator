@@ -1,0 +1,77 @@
+body {
+    width: 100%;
+    height: 100vh;
+    zoom: 100%;
+    background-image: url('/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 180%;
+}
+
+.txt {
+    color: black;
+    background-color: #32DABE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 78%;
+    padding: 4%;
+    border-radius: 16px;
+    position: relative;
+    bottom: 25%;
+    text-align: center;
+}
+
+
+.images {
+    position: relative;
+    bottom: 20%;
+}
+
+.images2 {
+    position: relative;
+    bottom: 10%;
+}
+
+.dog, .fish, .plus, .hamster {
+    position: relative;
+}
+
+.dog {
+    right: 49%;
+}
+
+.fish {
+    left: 49%;
+}
+
+.plus {
+    right: 35%;
+}
+
+.hamster {
+    left: 35%;
+}
+
+
+.buttons {
+    position: relative;
+    top: 26%;
+}
+
+.back  {
+    position: relative;
+    right: 30%;
+}
+
+.continue {
+    position: relative;
+    left: 30%;
+}
